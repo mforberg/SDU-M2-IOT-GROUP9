@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IoT Project</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.9.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.2.1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/static/jsoncalls.js"></script>
+    <script src="/static/vega_script.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/stylesheet.css">
+</head>
+<body>
+<div id="button-wrapper">
+    <div id=buttons>
+        <table id="inputFields">
+            <td>Pick an RGB color: <input type="color" name="favcolor" id="color"></td>
+            <td>Intensity: <label for="intensity"></label><input type="number" id="intensity"></td>
+            <td>Setpoint: <label for="setpoint"></label><input type="number" id="setpoint"></td>
+        </table>
+        <table id="buttonTable">
+            <button id="updateButton" class="buttonFinish">Visualize Light Level</button>
+            <button id="rgbSender" class="buttonFinish">Update RGB color</button>
+            <button id="setIntensity" class="buttonFinish">Set Intensity</button>
+            <button id="setSetPoint" class="buttonFinish">Set Setpoint</button>
+        </table>
+    </div>
+</div>
+    <div id="vis"></div>
+</body>
+</html>

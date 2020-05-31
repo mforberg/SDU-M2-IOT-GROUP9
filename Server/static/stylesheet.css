@@ -1,0 +1,27 @@
+.buttonFinish{
+    width: 25%;
+    height: 3em;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#button-wrapper{
+    width: 75vw;
+    margin-bottom: 1vh;
+}
+
+
+#buttonTable{
+    width: 100%;
+}
+
+#buttonTable td{
+    width: 20%;
+}
+
+
+#vis {
+    width: 75%;
+}
